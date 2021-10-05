@@ -12,12 +12,14 @@ import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatButtonModule } from '@angular/material/button';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProbabilityTableComponent,
     NavbarComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,1 +1,25 @@
-<p>dealer works!</p>
+<div class="flex-2cloumn">
+  <div class="menu">
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>
+        <mat-icon>style</mat-icon>
+        <span>Deal</span>
+      </button>
+    </mat-menu>
+  </div>
+
+  <div class="dealer-box">
+    <div></div>
+    <app-card-holder></app-card-holder>
+    <div></div>
+    <app-card-holder></app-card-holder>
+    <div></div>
+    <app-card-holder></app-card-holder>
+    <div></div>
+    <app-card-holder></app-card-holder>
+    <div></div>
+  </div>
+</div>

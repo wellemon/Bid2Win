@@ -1,0 +1,9 @@
+.flex-2cloumn{
+  display: flex;
+
+  .dealer-box {
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
